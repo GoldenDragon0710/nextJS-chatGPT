@@ -4,11 +4,9 @@ function Home() {
   return (
     <div className="wrapper">
       <section>
-        <h1>OpenAI ChatGPT + NextJs </h1>
-        <p>
-          This example shows how to implement a simple chat bot using Next.js
-          and OpenAI API.
-        </p>
+        <div style={{textAlign: "center"}}>
+          <h1>You are welcome.</h1>
+        </div>
       </section>
       <section>
         <ChatBox />
